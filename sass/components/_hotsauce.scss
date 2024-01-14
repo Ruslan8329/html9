@@ -1,0 +1,49 @@
+.ujjo-vector {
+  width: 656px;
+  height: 384px;
+  position: relative;
+}
+
+.ujjo-vector__second {
+  width: 556px;
+  height: 256px;
+  position: absolute;
+  left: 4%;
+  bottom: 176px;
+}
+
+.ujjo-pepper__text {
+  display: flex;
+}
+
+.pepper-text {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hot-sauce__text {
+  width: 536px;
+  height: 194px;
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.hot-sauce__section {
+  display: flex;
+}
+
+.ujjo-hot__sauce-second {
+  margin-left: 42px;
+}
+
+.ujjo-hot__sauce {
+  margin-top: 136px;
+}

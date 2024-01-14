@@ -1,0 +1,15 @@
+.body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  width: 1400px;
+}
+
+@import "./components/nav";
+@import "./components/hotsauce";
+@import "./components/scorpion";
+@import "./components/cards";
+@import "./components/pepper";
+@import "./components/image";
+@import "./components/story\ sauce";
+@import "./components/sauce\ footer";
+@import "./components/footer\ text";

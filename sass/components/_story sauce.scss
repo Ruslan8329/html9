@@ -1,0 +1,68 @@
+.sauce-story__title {
+  width: 590px;
+  color: #000;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.sauce-sexangle__text {
+  width: 392px;
+  color: #000;
+
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.sauce-sexangle {
+  position: relative;
+  left: 10px;
+  top: 40px;
+
+  &::before {
+    content: url(/image/sauce\ jar.png);
+    position: absolute;
+    left: 60px;
+    bottom: 610px;
+  }
+
+  &::after {
+    content: url(/image/sauce\ opposite\ jar.png);
+    position: absolute;
+    right: 60px;
+    bottom: 610px;
+  }
+}
+
+.sauce-text {
+  position: absolute;
+  left: 144px;
+  top: 136px;
+}
+
+.sauce-story {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+
+  &::before {
+    content: url(/image/sauce\ rabbit.png);
+    position: absolute;
+    right: 600px;
+    bottom: 10px;
+  }
+
+  &::after {
+    content: url(/image/sauce\ rabbit\ opposite.png);
+    position: absolute;
+    left: 900px;
+    bottom: 10px;
+  }
+}

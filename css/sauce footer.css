@@ -1,0 +1,9 @@
+.sauce-footer {
+  position: relative;
+}
+
+.footer-text {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
